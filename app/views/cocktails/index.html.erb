@@ -1,3 +1,5 @@
+<%= render "components/banner" %>
+
 <h1 class="text-center">Available Cocktails</h1>
 
 <div class="container">
@@ -9,7 +11,6 @@
             <%= cl_image_tag cocktail.photo, width: 400, height: 300, crop: :fill %>
           </div>
 
-        <!-- <h2><%= link_to cocktail.name, cocktail_path(cocktail) %></h2> -->
         <% end %>
 
       </div>
