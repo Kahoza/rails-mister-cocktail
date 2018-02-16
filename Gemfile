@@ -43,6 +43,10 @@ gem 'font-awesome-sass'
 gem 'simple_form'
 
 gem "figaro"
+gem 'cloudinary'
+gem 'carrierwave', '~> 1.2'
+
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

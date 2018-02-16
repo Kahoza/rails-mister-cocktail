@@ -6,6 +6,7 @@
       <div class="card text-center" >
         <div class="card-body">
             <h2 class="card-name" ><%= link_to cocktail.name, cocktail_path(cocktail) %></h2>
+            <%= cl_image_tag cocktail.photo, width: 400, height: 300, crop: :fill %>
           </div>
 
         <!-- <h2><%= link_to cocktail.name, cocktail_path(cocktail) %></h2> -->
